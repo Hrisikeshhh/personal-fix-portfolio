@@ -1063,6 +1063,7 @@ nav{
     height: 348vh;
     color: white;
     text-align: center;
+    margin-top: 24%;
      overflow-x: hidden;
      overflow-y: hidden;
 }
@@ -1104,6 +1105,7 @@ nav{
                             /* fourth sec */
 .fourtSec {
         color: white;
+        margin-top: 24%;
         height: 276vh;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -1362,32 +1364,84 @@ footer {
         margin-top: 17%;
     }
 
+         /* sec3 */
     .sec3 {
-        height: 478vh;
+        height: 524vh;
         color: white;
         text-align: center;
     }
+
+    .iOffer {
+        width: 91%;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-auto-rows: 549px;
+        grid-gap: 20px;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+                 /* fourth */
 
     .fourtSec {
         color: white;
         height: 349vh;
     }
 
-        .fifthSec {
-        height: 273vh;
+
+                              /* fifth sec */
+
+           .fifthSec {
+        height: 286vh;
         color: white;
-        margin-top: 14%;
+        margin-top: 20%;
     }
+
+        .Packages-outer {
+        height: 87%;
+        display: flex;
+        width: 94%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        margin-top: 2%;
+        flex-direction: column;
+    }
+
+    .fifthOuter1 {
+        display: flex;
+        height: 3%;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        font-size: 56%;
+        margin: auto;
+    }
+
+        .pakage {
+        height: 31%;
+        width: 85%;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #42b0a9;
+        background-color: rgba(1 33 44 / 54%);
+    }
+
+
+                       /* Six sec */
 
     .sixSec {
         height: 226vh;
         color: white;
+        margin-top: 37%;
     }
 
     details {
-    font-size: 83%;
-    padding: 2%;
-   }
+        font-size: 56%;
+        padding: 2%;
+    }
 
     .sevenSec {
         height: 85vh;
