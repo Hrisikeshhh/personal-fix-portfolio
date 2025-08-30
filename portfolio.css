@@ -1,0 +1,1060 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid white;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(2, 2, 61);;
+    margin-top: -2%;
+}
+
+.leftNav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftNav h3{
+     font-size: 127%;
+     color: white;
+}
+
+
+.rightNav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navigations{
+    display: flex;
+    width: 66%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:white ;
+}
+
+.navigation a:hover{
+      cursor: pointer;
+      color: rgb(175, 127, 221);
+      border-bottom: 4px solid rgb(175, 127, 221);
+       transition: 0.2s ease;
+      
+}
+
+
+                                                       /* first section */
+
+.firstSec{
+     height: 90vh;
+} 
+
+.background{
+   background-image: url(webPics/background.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 93%;
+    width: 98%;
+    margin-top: 1%;
+    border-radius: 51px;
+    box-shadow: 1px 3px 14px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    color: white;
+}
+
+.firstSecH1{
+   margin-bottom: 3%;
+    font-size: 417%;
+}
+
+.firstSecp{
+   width: 47%;
+    margin-bottom: 4%;
+    font-size: 108%;
+}
+
+.secondSec{
+  height: 40vh;
+}
+
+.profile{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.myPic{
+    width: 20%;
+    height: 95%;
+    border-radius: 20px;
+    background-image: url(myPics/me4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.intro{
+    width: 20%;
+    height: 95%;
+    background-color: rgba(1 33 44 / 54%);
+    border-radius: 20px;
+    color: white;
+}
+
+.tools{
+    outline: 1px solid rgb(175, 127, 221);
+    width: 50%;
+    height: 95%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.introH1{
+  margin-top: 5%;
+    margin-left: 4%;
+    font-size: 125%;
+}
+
+.introP1{
+   font-size: 329%;
+    margin-top: 28%;
+    margin-left: 5%;
+}
+
+.introp2{
+  margin-top: 2%;
+    margin-left: 5%;
+}
+
+.tools h1{
+    color: white;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.toolsParallel{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolsUse{
+    width: 9%;
+    height: 100%;
+}
+
+.toolsUse img{
+    width: 100%;
+}
+
+.levender{
+    color: rgb(175, 127, 221) ;
+}
+
+.thirdSec{
+  height: 300vh;
+  margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectRow{
+    height: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projectBox{
+  width: 29%;
+    height: 87%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.projectBox1h1{
+ margin-top: 3%;
+ width: 86%;
+ text-align: start;
+}
+
+.projectBoxP1{
+  width: 86%;
+}
+
+.webPic{
+   width: 88%;
+    height: 52%;
+    background-color:  rgba(1 33 44 54%);
+    border-radius: 20px;
+}
+
+.webPic img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.skills{
+   display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 123%;
+    color: white;
+    margin-bottom: 0;
+}
+
+#html{
+   display: inline-block;
+    background-color: rgb(65, 36, 5);
+    padding: 1%;
+    border-radius: 14px;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+#css{
+   display: inline-block;
+    background-color: rgb(1, 33, 44);
+    padding: 1%;
+    border-radius: 14px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#JavaScript{
+   display: inline-block;
+   background-color: rgb(128, 93, 6);
+   padding: 1%;
+   border-radius: 14px;
+   z-index: 1;
+   cursor: pointer;
+}
+#gsap{
+   display: inline-block;
+   background-color: rgb(29, 47, 1);
+   padding: 1%;
+   border-radius: 14px;
+   z-index: 1;
+   cursor: pointer;
+}
+
+.thirdSecP1{
+  text-align: center;
+    font-size: 138%;
+    margin-bottom: 1%;
+}
+
+.thirdSec1H1{
+  font-size: 263%;
+    color: white;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.fourthSec{
+  height: 100vh;
+  color: white;
+}
+
+.fourthSec1P1{
+   text-align: center;
+    font-size: 166%;
+}
+
+.fourthSec1H1{
+    text-align: center;
+    font-size: 276%;
+}
+
+.socialMedia{
+    margin-top: 2%;
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Hrisikesh{
+    width: 30%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Xyra{
+  width: 30%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia img{
+    width: 50%;
+    border-radius: 34px;
+}
+
+.socialMedia img:hover{
+ cursor: pointer;
+} 
+
+
+.Himanshu{
+   width: 30%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer{
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 150%;
+    margin-left: 5%;
+}
+
+#menu{
+    display: none;
+}
+
+#close{
+    display: none;
+}
+
+@media(max-width:800px) {
+
+    #menu {
+        display: inline-block;
+        font-size: 290%;
+        color: white;
+    }
+
+    #close{
+     display: inline-block;
+        font-size: 311%;
+        margin-left: 68%;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(2, 2, 61);
+    margin-top: -6%;
+    align-items: center;
+}
+    
+.navigations{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right:100%;
+        width: 100%;
+        height: 47%;
+        border-radius: 28px;
+        background-color: #080829;
+        z-index: 2;
+    }
+
+    .firstSec {
+    height: 90vh;
+}
+
+   .background {
+    background-image: url(webPics/background.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 84%;
+    width: 85%;
+    margin-top: 11%;
+    border-radius: 51px;
+    box-shadow: 1px 3px 14px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.firstSecH1 {
+    margin-bottom: 3%;
+    font-size: 240%;
+    width: 100%;
+    margin-top: 57%;
+    text-align: center;
+}
+
+.firstSecp {
+    width: 91%;
+    margin-bottom: 4%;
+    font-size: 119%;
+    margin: auto;
+}
+
+.secondSec {
+    height: 126vh;
+}
+
+.profile {
+    height: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.myPic {
+    width: 85%;
+    height: 23%;
+    border-radius: 20px;
+    background-image: url(myPics/me4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    width: 85%;
+    height: 29%;
+    background-color: rgba(1 33 44 / 54%);
+    border-radius: 20px;
+    color: white;
+    overflow-x: hidden;
+}
+
+.tools {
+    outline: 1px solid rgb(175, 127, 221);
+    width: 85%;
+    height: 33%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+                                     /* Third sec */
+
+.projectRow {
+    height: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.projectBox {
+    width: 85%;
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+    .thirdSec1H1 {
+        font-size: 119%;
+        color: white;
+        text-align: center;
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 96%;
+    color: white;
+    margin-bottom: 0;
+}
+
+.thirdSec {
+    height: 525vh;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.thirdSecP1 {
+    text-align: center;
+    font-size: 138%;
+    margin-bottom: 1%;
+}
+
+.thirdSec1H1 {
+    font-size: 179%;
+    color: white;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+              /* fourth Sec */
+
+
+
+     .fourthSec {
+    height: 235vh;
+    color: white;
+    overflow-x: hidden;
+}
+
+.fourthSec1H1 {
+    text-align: center;
+    font-size: 196%;
+}
+
+.socialMedia {
+    margin-top: 2%;
+    height: 83%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Hrisikesh {
+    width: 48%;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia img {
+    width: 115%;
+    border-radius: 34px;
+}
+
+.Xyra {
+    width: 48%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Himanshu {
+    width: 48%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+@media (min-width:360px) and (max-width:380px)
+{
+
+
+     nav {
+        display: flex;
+        height: 70px;
+        background-color: rgb(2, 2, 61);
+        margin-top: -8%;
+        align-items: center;
+    }
+      
+    .secondSec {
+        height: 181vh;
+    }
+
+
+                    /* thirdSec */
+    .thirdSec {
+        height: 556vh;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thirdSecP1 {
+        text-align: center;
+        font-size: 104%;
+        margin-bottom: 1%;
+    }
+
+    .thirdSec1H1 {
+        font-size: 103%;
+        color: white;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+
+
+                                   /* fourthSec */
+
+    .fourthSec1P1 {
+    text-align: center;
+    font-size: 132%;
+}
+
+    .fourthSec1H1 {
+        text-align: center;
+        font-size: 137%;
+    }
+
+
+    .fourthSec {
+        height: 284vh;
+        color: white;
+    }
+}
+
+@media(min-width:768px) and (max-width:800px)
+{
+
+       nav {
+        display: flex;
+        height: 70px;
+        background-color: rgb(2, 2, 61);
+        margin-top: -3%;
+        align-items: center;
+    }
+
+    .navigations {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 47%;
+        border-radius: 28px;
+        background-color: #080829;
+        z-index: 2;
+        font-size: 162%;
+    }
+
+        .firstSecH1 {
+        margin-bottom: 3%;
+        font-size: 394%;
+        width: 100%;
+        margin-top: 57%;
+        text-align: center;
+    }
+
+    .firstSecp {
+        width: 91%;
+        font-size: 186%;
+        margin: auto;
+    }
+
+    .secondSec {
+        height: 207vh;
+    }
+
+    .profile {
+        height: 93%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+                                 /* third sec */
+
+
+    .thirdSec {
+        height: 763vh;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .thirdSec1H1 {
+        font-size: 229%;
+        color: white;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    .introH1 {
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 221%;
+}
+
+  .introP1 {
+    font-size: 481%;
+    margin-top: 28%;
+    margin-left: 5%;
+}
+
+.introp2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 182%;
+}
+
+      
+
+.projectBox1h1 {
+    margin-top: 3%;
+    width: 86%;
+    text-align: start;
+    font-size: 298%;
+}
+
+.projectBoxP1 {
+    width: 86%;
+    font-size: 170%;
+}
+
+
+                         /* Fourth  sec */
+
+   .fourthSec {
+        height: 352vh;
+        color: white;
+    }
+
+    .fourthSec1P1 {
+    text-align: center;
+    font-size: 202%;
+     }
+
+     .skills {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        font-size: 169%;
+        color: white;
+        margin-bottom: 0;
+    }
+
+    .fourthSec1H1 {
+        text-align: center;
+        font-size: 300%;
+    }
+
+    .socialMedia img {
+        width: 115%;
+        border-radius: 66px;
+    }
+}
+
+
+@media (min-width:800px) and (max-width:1030px)
+{
+
+    nav {
+    display: flex;
+    height: 70px;
+    background-color: rgb(2, 2, 61);
+    margin-top: -3%;
+}
+
+    .firstSec {
+    height: 82vh;
+}
+
+    .background {
+    background-image: url(webPics/background.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 95%;
+    width: 88%;
+    margin-top: 11%;
+    border-radius: 51px;
+    flex-direction: column;
+    box-shadow: 1px 3px 14px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    color: white;
+}
+
+.firstSecH1 {
+    margin-bottom: 3%;
+    font-size: 417%;
+    width: 100%;
+    text-align: center;
+}
+
+.firstSecp {
+    margin-bottom: 4%;
+    font-size: 169%;
+    width: 95%;
+}
+
+
+
+                       /* Second Sec */
+
+
+.secondSec {
+    height: 190vh;
+}
+
+.profile {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.myPic {
+    width: 75%;
+    height: 31%;
+    border-radius: 20px;
+    background-image: url(myPics/me4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    width: 75%;
+    height: 25%;
+    background-color: rgba(1 33 44 / 54%);
+    border-radius: 20px;
+    color: white;
+}
+
+.introH1 {
+    margin-top: 5%;
+    margin-left: 4%;
+    font-size: 180%;
+}
+
+.introP1 {
+    font-size: 401%;
+    margin-top: 28%;
+    margin-left: 5%;
+}
+
+.introp2 {
+    font-size: 191%;
+    width: 93%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.tools {
+    outline: 1px solid rgb(175, 127, 221);
+    width: 74%;
+    height: 27%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ 
+                      /* Third sec */
+
+.thirdSec {
+    height: 583vh;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thirdSecP1 {
+    text-align: center;
+    font-size: 198%;
+    margin-bottom: 1%;
+}
+
+
+ .thirdSec1H1 {
+        font-size: 220%;
+        color: white;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+.projectRow {
+    height: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+
+}
+ 
+   
+
+    .projectBox1h1 {
+        margin-top: 3%;
+        width: 86%;
+        font-size: 271%;
+        text-align: start;
+    }
+
+    .projectBoxP1 {
+        width: 86%;
+        font-size: 164%;
+    }
+
+
+
+.projectBox {
+    width: 68%;
+    height: 87%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.projectBoxP1 {
+    width: 86%;
+}
+
+.projectBox1h1 {
+        margin-top: 3%;
+        width: 86%;
+        font-size: 266%;
+        text-align: start;
+    }
+
+    .projectBoxP1 {
+        width: 86%;
+        font-size: 158%;
+    }
+
+    .socialMedia img {
+    width: 50%;
+    border-radius: 50px;
+}
+
+
+                      /* fourth sec */
+.fourthSec {
+    height: 195vh;
+    color: white;
+}
+
+.socialMedia {
+    margin-top: 2%;
+    height: 89%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 166%;
+    color: white;
+    margin-bottom: 0;
+}
+
+.Hrisikesh {
+    width: 62%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Xyra {
+    width: 62%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Himanshu {
+    width: 62%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 159%;
+}
+
+
+}
