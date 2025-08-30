@@ -660,7 +660,7 @@ font-size: 325%;
   font-weight: bold;
 }
 
-#pakage2{
+#pakageu{
   font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
@@ -679,11 +679,9 @@ font-size: 325%;
     border: 1px solid white;
     margin: 6% 20%;
     cursor: pointer;
-}
-
-#pakageButton:hover{
     background: linear-gradient(135deg, #ff6a00, #ffcc00);
 }
+
            /* sixSec */
 
 .sixSec{
@@ -1222,6 +1220,11 @@ nav{
     background-color: rgba(1 33 44 / 54%);
 }
 
+#pakageu {
+    font-family: 'poppins', 'inter', 'Roboto', 'Montserrat', 'Open Sans';
+    font-size: 58%;
+}
+
 .badge {
     display: none;
 }
@@ -1443,6 +1446,11 @@ footer {
         border: 1px solid #42b0a9;
         background-color: rgba(1 33 44 / 54%);
     }
+
+    #pakageu{
+        font-size: 70%;
+    }
+
 
 
                        /* Six sec */
