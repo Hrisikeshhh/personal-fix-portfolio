@@ -662,6 +662,7 @@ font-size: 325%;
 
 #pakageu{
   font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+  font-size: 85%;
 }
 
 #pakageHead{
@@ -709,7 +710,7 @@ font-size: 325%;
     margin-top: 1%;
     display: inline-block;
     margin-left: 5%;
-    font-size: 146%;
+    font-size: 95%;
     font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
@@ -1255,7 +1256,7 @@ nav{
     margin-top: 3%;
     display: inline-block;
     margin-left: 5%;
-    font-size: 98%;
+    font-size: 65%;
 }
 
 .whyMe-innerFlex {
