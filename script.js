@@ -354,13 +354,12 @@ offerbox1.forEach((el)=>{
 
 
 let offerBoxEditing = document.querySelector(".secTwo");
-
 offerBoxEditing.addEventListener("click",()=>{
     window.location.href = "https://portfolio.malloy.sg/vizualuxe_?fbclid=PAZXh0bgNhZW0CMTEAAaeuEMOOynHheYLeMTqiXbjV4UaCzS8s6d4Ao9KpcRe7KjRhJnZKh_24pwVN0w_aem_hp14f50vbeqHshVEjZDwtQ";
 })
 
-let pakagesBtn = document.querySelectorAll("#pakageButton");
-       
+
+let pakagesBtn = document.querySelectorAll("#pakageButton");       
 pakagesBtn.forEach((u)=>{
   u.addEventListener("click",()=>{
     window.location.href = "https://www.instagram.com/xyra.tech?igsh=MTE1N3N6dHp4ejhzbA==";
