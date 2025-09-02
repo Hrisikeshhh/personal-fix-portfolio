@@ -336,6 +336,8 @@ portfolioBtn.addEventListener("click",()=>{
 })
 
 
+
+
 //  making divs clickable
 
 let one = document.querySelector("#one");
@@ -343,9 +345,18 @@ one.addEventListener("click",()=>{
   window.location.href = "https://tucky.netlify.app/";
 })
 
-let offerBox1 = document.querySelector(".sec3One");
-offerBox1.addEventListener("click",()=>{
-  window.location.href = "https://wa.me/917635959930";
+let offerbox1 = document.querySelectorAll(".sec3One");
+offerbox1.forEach((el)=>{
+  el.addEventListener("click",()=>{
+    window.location.href = "https://wa.me/917635959930";
+  })
+})
+
+
+let offerBoxEditing = document.querySelector(".secTwo");
+
+offerBoxEditing.addEventListener("click",()=>{
+    window.location.href = "https://portfolio.malloy.sg/vizualuxe_?fbclid=PAZXh0bgNhZW0CMTEAAaeuEMOOynHheYLeMTqiXbjV4UaCzS8s6d4Ao9KpcRe7KjRhJnZKh_24pwVN0w_aem_hp14f50vbeqHshVEjZDwtQ";
 })
 
 let pakagesBtn = document.querySelectorAll("#pakageButton");
