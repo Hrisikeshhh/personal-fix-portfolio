@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
+  
+
 var typed = new Typed('#element', {
       strings: ['Building websites that works', '-and keep getting better.'],
       typeSpeed: 50,
