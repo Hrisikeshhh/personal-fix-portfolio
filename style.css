@@ -932,7 +932,7 @@ nav{
                       /* Section 2nd */
 
   .section2 {
-        height: 159vh;
+       min-height: 159dvh;
     }
 
 .intro1 {
@@ -1059,7 +1059,7 @@ nav{
 
                               /* 3rd section */
 .sec3 {
-    height: 348vh;
+    min-height: 348dvh;
     color: white;
     text-align: center;
     margin-top: 24%;
@@ -1112,7 +1112,7 @@ nav{
 .fourtSec {
         color: white;
         margin-top: 24%;
-        height: 276vh;
+        min-height: 276dvh;
         overflow-x: hidden;
         overflow-y: hidden;
     
@@ -1162,7 +1162,7 @@ nav{
                 /* fifth sec */
 
 .fifthSec {
-    height: 214vh;
+    min-height: 214dvh;
     color: white;
     margin-top: 14%;
     overflow-x: hidden;
@@ -1239,7 +1239,7 @@ nav{
    
       /* sixSec */
 .sixSec {
-    height: 151vh;
+    min-height: 151dvh;
     color: white;
 }
 
@@ -1314,7 +1314,7 @@ nav{
 
                          /* seventh sec */
 .sevenSec {
-    height: 71vh;
+    min-height: 71dvh;
     display: flow-root;
     margin-top: 20%;
     overflow-x: hidden;
@@ -1371,13 +1371,13 @@ footer {
     }
 
     .section2 {
-        height: 241vh;
+       min-height: 241dvh;
         margin-top: 17%;
     }
 
          /* sec3 */
     .sec3 {
-        height: 507vh;
+        min-height: 507dvh;
         color: white;
         text-align: center;
     }
@@ -1404,14 +1404,14 @@ footer {
 
     .fourtSec {
         color: white;
-        height: 349vh;
+        min-height: 349dvh;
     }
 
 
                               /* fifth sec */
 
            .fifthSec {
-        height: 286vh;
+        min-height: 286dvh;
         color: white;
         margin-top: 20%;
     }
@@ -1457,7 +1457,7 @@ footer {
                        /* Six sec */
 
     .sixSec {
-        height: 226vh;
+        min-height: 226dvh;
         color: white;
         margin-top: 37%;
     }
@@ -1468,7 +1468,7 @@ footer {
     }
 
     .sevenSec {
-        height: 85vh;
+        min-height: 85dvh;
         display: flow-root;
         margin-top: 20%;
     }
