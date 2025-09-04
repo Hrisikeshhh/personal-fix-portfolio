@@ -6,6 +6,20 @@ document.addEventListener("DOMContentLoaded",()=>{
 setVH();
 window.addEventListener('resize', setVH);
 
+
+ // Detect Instagram in-app browser
+  function isInstagramBrowser() {
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    return ua.indexOf("Instagram") > -1;
+  }
+
+  // If not Instagram, hide the button
+  if (!isInstagramBrowser()) {
+    document.getElementById("chrome-btn").style.display = "none";
+  }
+
+
+
 var typed = new Typed('#element', {
       strings: ['Building websites that works', '-and keep getting better.'],
       typeSpeed: 50,
