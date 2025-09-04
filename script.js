@@ -7,29 +7,35 @@ setVH();
 window.addEventListener('resize', setVH);
 
 
- // Detect Instagram in-app browser
+
+
+
+        //  redirectiong to chrome
   function isInstagramBrowser() {
-    const ua = navigator.userAgent || navigator.vendor || window.opera;
-    return ua.indexOf("Instagram") > -1;
+    const ua = navigator.userAgent.toLowerCase();
+    return ua.includes("instagram");
   }
 
-  // If not Instagram, hide the button
-  if (!isInstagramBrowser()) {
-    document.getElementById("chrome-btn").style.display = "none";
+  function isChromeBrowser() {
+    const ua = navigator.userAgent.toLowerCase();
+    return ua.includes("chrome") && !ua.includes("instagram");
+  }
+
+  const link = document.getElementById("chrome-link");
+
+  if (isChromeBrowser()) {
+    // Hide if opened in Chrome
+    link.style.display = "none";
+  } else if (!isInstagramBrowser()) {
+    // Also hide if it's some other browser (Safari, Firefox, etc.)
+    link.style.display = "none";
   }
 
 
 
-var typed = new Typed('#element', {
-      strings: ['Building websites that works', '-and keep getting better.'],
-      typeSpeed: 50,
-      backSpeed: 30,
-      startDelay: 500,
-      backDelay:1500,
-      loop: true
-    });
 
 
+    //  reaching out icons
 let instaIcon = document.querySelector(".instaIcon");
 
 instaIcon.addEventListener("click",()=>{
