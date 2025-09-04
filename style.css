@@ -892,6 +892,11 @@ footer{
 
 @media(max-width:800px) {
 
+    .fullscreen{
+  height: calc(var(--vh, 1vh)*100);
+   }
+   
+
     #menu {
         display: inline-block;
         font-size: 290%;
@@ -932,7 +937,7 @@ nav{
                       /* Section 2nd */
 
   .section2 {
-       min-height: 159dvh;
+    height: 159vh;
     }
 
 .intro1 {
@@ -1059,7 +1064,7 @@ nav{
 
                               /* 3rd section */
 .sec3 {
-    min-height: 348dvh;
+    height: 348vh;
     color: white;
     text-align: center;
     margin-top: 24%;
@@ -1112,7 +1117,7 @@ nav{
 .fourtSec {
         color: white;
         margin-top: 24%;
-        min-height: 276dvh;
+        height: 276vh;
         overflow-x: hidden;
         overflow-y: hidden;
     
@@ -1162,7 +1167,7 @@ nav{
                 /* fifth sec */
 
 .fifthSec {
-    min-height: 214dvh;
+    height: 214vh;
     color: white;
     margin-top: 14%;
     overflow-x: hidden;
@@ -1239,7 +1244,7 @@ nav{
    
       /* sixSec */
 .sixSec {
-    min-height: 151dvh;
+    height: 151vh;
     color: white;
 }
 
@@ -1314,7 +1319,7 @@ nav{
 
                          /* seventh sec */
 .sevenSec {
-    min-height: 71dvh;
+    height: 71vh;
     display: flow-root;
     margin-top: 20%;
     overflow-x: hidden;

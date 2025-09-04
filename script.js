@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
-  
+  function setVH() {
+  document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01 + 'px');
+}
+setVH();
+window.addEventListener('resize', setVH);
 
 var typed = new Typed('#element', {
       strings: ['Building websites that works', '-and keep getting better.'],
