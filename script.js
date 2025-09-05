@@ -44,6 +44,16 @@ instaIcon.addEventListener("click",()=>{
 })
 
 
+let DownloadResume = document.querySelector(".resume");
+
+DownloadResume.addEventListener("click",()=>{
+  let link = document.createElement("a");
+  link.href = "webPics/resume.jpg";
+  link.download = "webPics/resume.jpg";
+  link.click();
+  link.remove(link);
+})
+
 
 
                                                // desktop screen
