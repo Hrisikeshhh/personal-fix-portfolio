@@ -1190,6 +1190,15 @@ nav{
     flex-direction: column;
 }
 
+.unavailable {
+    text-decoration: line-through;
+    font-size: 88%;
+}
+
+.serviceHead{
+    font-size: 88%;
+}
+
 .boxOffer {
     background-color: rgb(2 2 12 / 78%);
     border-radius: 29px;
