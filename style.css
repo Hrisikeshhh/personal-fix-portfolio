@@ -28,6 +28,7 @@ nav{
     height: 70px;
     background-color: rgb(2, 2, 61);;
     margin-top: -2%;
+     font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
 .leftNav{
@@ -88,6 +89,7 @@ nav{
 .sec1{
     height: 90vh;
     display: flow-root;
+      font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
 .pics{
@@ -136,10 +138,10 @@ nav{
 }
 
 .big{
-    font-size: 580%;
+    font-size: 407%;
     width: 90%;
     text-shadow: -67px 3px 46px;
-    font-family: 'Oswald','Bebas Neue','Raleway';
+      font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
 .intro1p2{
@@ -249,6 +251,7 @@ nav{
 
 .section2{
    height: 114vh;
+    font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
 .outerIntro2{
@@ -420,14 +423,16 @@ nav{
 height: 175vh;
 color: white;
 text-align: center;
+ font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
 }
 
 .sec3h1-1{
  margin-top: 3%;
+ font-size: 135%;
 }
 
 .sec3h1-2{
-font-size: 296%;
+font-size: 219%;
     width: 60%;
     margin: auto;
     margin-top: 1%;
