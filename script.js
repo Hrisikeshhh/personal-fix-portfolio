@@ -39,7 +39,7 @@ window.addEventListener('resize', setVH);
 let instaIcon = document.querySelector(".instaIcon");
 
 instaIcon.addEventListener("click",()=>{
- window.location.href = "https://www.instagram.com/h.r.i.s.i.k.e.s.h?igsh=czBiZTVpa244emhm";
+ window.location.href = "https://www.instagram.com/hrisikesh_optimizer?igsh=MWFlemQwMndjbnRyeg==";
 
 })
 
