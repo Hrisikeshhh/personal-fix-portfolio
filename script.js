@@ -55,7 +55,17 @@ DownloadResume.addEventListener("click",()=>{
 })
 
 
+// var typed = new Typed('#element', {
+//       strings: ['I build websites',' that evolve and improve with you.'],
+//       typeSpeed: 50,  
+//     });
 
+ var typed = new Typed('#element', {
+      strings: ['I build Websites.', ' That evolve and improve with you.'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
                                                // desktop screen
 let desktop = gsap.matchMedia();
 
@@ -726,7 +736,6 @@ allDetails.forEach((detail)=>{
 
 
     // swiper
-
 
 
 

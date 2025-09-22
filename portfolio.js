@@ -14,7 +14,8 @@ body.addEventListener("mousemove",(der)=>{
         
       });
 
-
+                     
+    
                                     // for desktop screen
 
 let desktop = gsap.matchMedia();
@@ -471,11 +472,11 @@ animate2.forEach((u)=>{
 
 //  making divs clickable
 
-let one = document.querySelector(".one");
+// let one = document.querySelector(".one");
 
-one.addEventListener("click",()=>{
-    window.location.href = "https://tucky.netlify.app/";
-})
+// one.addEventListener("click",()=>{
+//     window.location.href = "https://tucky.netlify.app/";
+// })
 
 
 
@@ -502,15 +503,16 @@ himanshu.addEventListener("click",()=>{
 })
 
 
+let projectBox = document.querySelectorAll(".c");
 
+projectBox.forEach((box)=>{
+    box.addEventListener("click",()=>{
+             localStorage.setItem("productId",
+              box.dataset.id )
 
-
-
-
-
-
-
-
+            window.location.href = "caseStudy.html";  
+    }) 
+})
 
 
 
