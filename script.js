@@ -54,11 +54,7 @@ DownloadResume.addEventListener("click",()=>{
   link.remove(link);
 })
 
-
-// var typed = new Typed('#element', {
-//       strings: ['I build websites',' that evolve and improve with you.'],
-//       typeSpeed: 50,  
-//     });
+                      // typed.js
 
  var typed = new Typed('#element', {
       strings: ['I build Websites.', ' That evolve and improve with you.'],

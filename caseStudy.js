@@ -1,15 +1,15 @@
-let data = fetch("data.json");
+// let data = fetch("data.json");
 
-data.then((response)=>{
- return response.json();
-})
-.then((data)=>{
+// data.then((response)=>{
+//  return response.json();
+// })
+// .then((data)=>{
    
-    console.log(data);
+//     console.log(data);
 
 
-    const productId = localStorage.getItem("productId");
-    const product = data.find(p=> p.id == productId);
+//     const productId = localStorage.getItem("productId");
+//     const product = data.find(p=> p.id == productId);
 
-    document.querySelector(".htag").textContent = product.name;
-})
+//     document.querySelector(".htag").textContent = product.name;
+// })
