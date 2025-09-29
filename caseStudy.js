@@ -227,6 +227,13 @@ url.then((response)=>{
         }
   })
 
+
+
+
+  return()=>{
+      tl1.kill();
+  }
+
   })
 
 
@@ -279,12 +286,213 @@ close.addEventListener("click",()=>{
   tl2.reverse();
 })
 
+let tl3 = gsap.timeline();
+
+tl3.from(".para1",{
+     y:50,
+    opacity:0,
+    stagger:0.4
+})
+
+tl3.from(".para2",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".para2",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".section3P1",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".section3P1",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".para3",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".para3",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".para4",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".para4",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".para5",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".para5",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+
+tl3.from(".para6",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".para6",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".Screenshot1",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".Screenshot1",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".Screenshot2",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".Screenshot2",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+
+tl3.from(".Screenshot3",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".Screenshot3",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".section6P1",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".section6P1",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+tl3.from(".TestimonialPic",
+  {
+    y:50,
+    opacity:0,
+    stagger:0.3,
+    scrollTrigger:{
+      scroller:"body",
+      trigger:".TestimonialPic",
+      scrub:2,
+      start:"top 90%",
+      end:"top 50%"
+    }
+  }
+)
+
+
 
 
 
 
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 })
