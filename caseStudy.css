@@ -1,0 +1,485 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid white;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(2, 2, 61);;
+    margin-top: -2%;
+}
+
+.leftNav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftNav h3{
+     font-size: 127%;
+     color: white;
+}
+
+
+.rightNav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navigations{
+    display: flex;
+    width: 66%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:white ;
+}
+
+.navigation a:hover{
+      cursor: pointer;
+      color: rgb(175, 127, 221);
+      border-bottom: 4px solid rgb(175, 127, 221);
+       transition: 0.2s ease;
+      
+}
+
+.levender{
+    color:rgb(175, 127, 221) ;
+}
+
+                        /* section1 */
+.section1{
+     color: white;
+     display: flow-root;
+}
+
+.section1P1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 225%;
+    text-decoration: underline;
+}
+
+.outerOverview{
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.OverviewPic{
+    width: 40%;
+    height: 80%;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.OverviewPic img {
+    width: 100%;
+    height: 68%;
+}
+
+.OverviewPara{
+    width: 60%;
+    height: 80%;
+}
+
+.OverviewPara p{
+    margin-top: 3%;
+    font-size: 105%;
+    margin-left: 6%;
+    line-height: 125%;
+}
+
+                 /* section2 */
+
+.section2{
+    color: white;
+}
+
+.section2P1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 225%;
+    text-decoration: underline;
+}
+
+.ClientProblemOuter{
+   width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.problemPic{
+    width: 40%;
+    height: 80%;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.problemPic img{
+    width: 100%;
+    height: 68%;
+}
+
+.problemPara{
+    width: 60%;
+    height: 80%;
+}
+
+.problemPara p{
+    margin-top: 3%;
+    font-size: 105%;
+    margin-left: 6%;
+    line-height: 125%;
+}
+
+.section3{
+    color: white;
+    display: flow-root;
+}
+
+.section3P1{
+  text-align: center;
+    font-size: 250%;
+    margin-top: 8%;
+    text-decoration: underline;
+}
+
+.row{
+  height: 23%;
+}
+
+.question{
+font-size: 155%;
+
+}
+
+.questionAns{
+    width: 80%;
+    margin-top: 5%;
+    margin: auto;
+    margin-top: 5%;
+    height: 85vh;
+}
+
+.ans{
+    font-size: 90%;
+    margin-top: 1%;
+    color: wheat;
+}
+
+.approachPic{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 37px;
+}
+
+.approachPic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 41px;
+}
+
+.section4{
+    color: white;
+}
+
+.section4p1{
+     text-align: center;
+     font-size: 225%;
+     margin-top: 8%;
+     text-decoration: underline;
+}
+
+.section4p{
+    width: 75%;
+      margin: auto;
+      margin-top:3%;
+      font-size: 125%;
+}
+
+.Url{
+    font-size: 200%;
+}
+
+#link{
+    margin-left: 20%;
+}
+
+
+.section5{
+    display: flow-root;
+}
+
+.screenshot{
+    height: 60vh;
+    width: 65%;
+    margin: auto;
+    margin-top: 6%; 
+}
+
+.screenshot img{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.section6{
+    color: white;
+    display: flow-root;
+}
+
+.section6P1{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 225%;
+    text-decoration: underline;
+}
+
+.Testimonials{
+  height: 71vh;
+}
+
+.TestimonialPic{
+  width: 19%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 6%;
+    height: 91%;
+}
+
+.TestimonialPic img{
+width: 100%;
+height: 100%;
+}
+
+footer{
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 150%;
+    margin-left: 5%;
+}
+
+#close{
+    display: none;
+}
+
+#menu{
+    display: none;
+}
+
+@media(max-width:800px)
+{
+   #menu {
+        display: inline-block;
+        font-size: 290%;
+        color: white;
+    }
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(2, 2, 61);
+    margin-top: -6%;
+    align-items: center;
+}
+    
+.navigations{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right:100%;
+        width: 100%;
+        height: 47%;
+        border-radius: 28px;
+        background-color: #080829;
+        z-index: 2;
+    }
+
+    #close{
+        display: inline-block;
+        font-size: 311%;
+        margin-left: 68%;
+    }
+    #menu{
+    display: inline-block;
+}
+
+   .outerOverview {
+    width: 90%;
+    margin-top: 2%;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.section1P1 {
+    font-size: 165%;
+}
+
+.OverviewPic {
+    width: 85%;
+    height: 51%;
+}
+
+.OverviewPara p {
+    margin-top: 3%;
+    font-size: 90%;
+    margin-left: 6%;
+}
+
+.OverviewPara {
+    width: 100%;
+    height: 80%;
+}
+
+.ClientProblemOuter {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2P1{
+   font-size: 165%;
+}
+
+.problemPic {
+    width: 90%;
+    height: 38%;
+}
+
+.problemPara {
+    width: 100%;
+    height: 80%;
+}
+
+.problemPara p {
+    font-size: 90%;
+}
+
+                        /* my approach */
+
+.questionAns {
+    width: 80%;
+    height: 110vh;
+}
+
+.ans {
+    font-size: 75%;
+    margin-top: 1%;
+    color: wheat;
+}
+
+.question {
+    font-size: 120%;
+}
+
+                  /* my approach */
+
+.approachPic {
+    width: 90%;
+    height: 25vh;
+   
+}
+
+
+.section3P1 {
+    font-size: 165%;
+}
+
+.section4p1 {
+    font-size: 165%;
+    margin-top: 35%;
+}
+
+.section4p {
+    width: 75%;
+    margin-top: 5%;
+    font-size: 100%;
+}
+
+.section4p {
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 100%;
+}
+
+.screenshot {
+    height: 20vh;
+    width: 85%;
+    margin: auto;
+    margin-top: 11%;
+    margin-bottom: 17%;
+}
+
+.screenshot img {
+    border-radius: 19px;
+}
+ 
+                                        /* client Section */
+
+.section6P1 {
+    text-align: center;
+    margin-top: 8%;
+    font-size: 165%;
+    text-decoration: underline;
+}
+
+.TestimonialPic {
+    width: 19%;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 27%;
+    height: 94%;
+    width: 65%;
+}
+}

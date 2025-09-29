@@ -382,11 +382,6 @@ portfolioBtn.addEventListener("click",()=>{
 
 //  making divs clickable
 
-let one = document.querySelector("#one");
-one.addEventListener("click",()=>{
-  window.location.href = "https://tucky.netlify.app/";
-})
-
 let offerbox1 = document.querySelectorAll(".sec3One");
 offerbox1.forEach((el)=>{
   el.addEventListener("click",()=>{
@@ -416,6 +411,24 @@ Stock.forEach((i)=>{
     alert("these services are not currently available")
   })
 })
+
+
+
+let discovery = document.querySelectorAll(".tap");
+
+discovery.forEach((item)=>{
+
+ item.addEventListener("click",()=>{
+  
+  localStorage.setItem("itemsId",item.dataset.id)
+ window.location.href = "caseStudy.html";
+ })
+
+})
+
+
+
+
 
 
 // notifications
@@ -547,7 +560,7 @@ scrollTrigger:{
 })
 
 tl3.from(" .b",{
-  x:30,
+  y:30,
 stagger:0.3,
 opacity:0,
 scrollTrigger:{
@@ -597,7 +610,7 @@ offerbox2.forEach((e)=>{
 
 
 tl3.from(" .c",{
-  x:30,
+  y:30,
 stagger:0.3,
 opacity:0,
 scrollTrigger:{
@@ -627,7 +640,7 @@ skillsBox.forEach((t)=>{
 })
 
 tl3.from(" .d",{
-  x:30,
+  y:30,
 stagger:0.3,
 opacity:0,
 scrollTrigger:{
@@ -667,6 +680,19 @@ scrollTrigger:{
 }
 })
 
+tl3.from(" .e",{
+  y:30,
+stagger:0.3,
+opacity:0,
+scrollTrigger:{
+  scroller:"body",
+  trigger:".e",
+  scrub:2,
+  start:"top 90%",
+  end:"top 75%"
+}
+})
+
 tl3.from(".g",{
 opacity:0,
 scrollTrigger:{
@@ -677,6 +703,8 @@ scrollTrigger:{
   end:"top 75%"
 }
 })
+
+
 
 tl3.from(".whyMe-pic",{
   rotate:"360 deg",
@@ -732,6 +760,8 @@ allDetails.forEach((detail)=>{
 
 
     // swiper
+
+
 
 
 
