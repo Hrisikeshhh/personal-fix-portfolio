@@ -329,6 +329,20 @@ animate2.forEach((u)=>{
   })
 })
 
+            //  cancel hover
+
+let hover = document.querySelectorAll(".p");
+
+hover.forEach((u)=>{
+  u.addEventListener("click",()=>{
+   gsap.to( u,{
+       scale:1,
+       duration:0.5
+   });
+  });
+});
+
+
 
 return ()=>{
   tl.kill();
