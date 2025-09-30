@@ -257,7 +257,7 @@ nav{
 .outerIntro2{
   width: 98%;
   margin: auto;
-  height: 50%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -355,7 +355,7 @@ nav{
 
 
 .add{
-    height: 50%;
+    height: 40%;
     width: 98%;
     display: flex;
     align-items: center;
@@ -415,6 +415,51 @@ nav{
 
 .session:hover{
     cursor: none;
+}
+
+.clientProjectsCounts{
+    height: 50vh;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerCounts{
+    height: 85%;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.countBox{
+    color: white;
+  /* border: 2px solid rgb(175, 127, 221); */
+    width: 29%;
+    height: 89%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 21px;
+}
+
+.header{
+        font-size: 210%;
+        margin-top: 2%;
+}
+
+#ProjectDone{
+font-size: 700%;
+}
+
+#happyClientServed{
+font-size: 700%;     
+}
+
+#creativeDesignDelivered{
+font-size: 700%;     
 }
 
     /*   what i offer - services */
@@ -1163,12 +1208,48 @@ nav{
     margin-top: 1%;
 }
 
+.clientProjectsCounts {
+    height: 72vh;
+    align-items: center;
+    margin: auto;
+}
+
+.header {
+    font-size: 149%;
+    margin-top: 2%;
+}
+
+.innerCounts{
+  flex-direction: column;
+  margin: auto;
+   height: 100%;
+}
+
+.countBox{
+   width: 95%;
+   text-align: center;
+   border: 0.5px solid white;
+   height: 20%;
+}
+
+#ProjectDone {
+    font-size: 400%;
+}
+
+#happyClientServed {
+    font-size: 400%;
+}
+
+#creativeDesignDelivered {
+    font-size: 400%;
+}
+
                               /* 3rd section */
 .sec3 {
     height: 348vh;
     color: white;
     text-align: center;
-    margin-top: 24%;
+    margin-top: 25%;
      overflow-x: hidden;
 }
 
