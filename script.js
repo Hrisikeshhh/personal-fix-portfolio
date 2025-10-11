@@ -448,7 +448,7 @@ discovery.forEach((item)=>{
   const clientDiv = document.getElementById("ProjectDone");
   const observer = new IntersectionObserver(entries => {
     if (entries[0].isIntersecting) {
-      animateCount(clientDiv, 1); // suppose 1500 clients
+      animateCount(clientDiv, 2); // suppose 1500 clients
       observer.disconnect(); // run only once
     }
   });
@@ -461,7 +461,7 @@ discovery.forEach((item)=>{
   const clientDiv1 = document.getElementById("happyClientServed");
   const observer1 = new IntersectionObserver(entries => {
     if (entries[0].isIntersecting) {
-      animateCount(clientDiv1, 1); // suppose 1500 clients
+      animateCount(clientDiv1, 2); // suppose 1500 clients
       observer1.disconnect(); // run only once
     }
   });
@@ -474,7 +474,7 @@ discovery.forEach((item)=>{
   const clientDiv2 = document.getElementById("creativeDesignDelivered");
   const observer2 = new IntersectionObserver(entries => {
     if (entries[0].isIntersecting) {
-      animateCount(clientDiv2, 1); // suppose 1500 clients
+      animateCount(clientDiv2, 2); // suppose 1500 clients
       observer2.disconnect(); // run only once
     }
   });

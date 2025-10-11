@@ -1,4 +1,37 @@
 [
+
+  {
+    "id": "web1",
+    "overViewPic":"yogaLandingpagePic/yogaThumbnail.png",
+    "OverviewPara1": "This project involved designing and developing a modern, soothing, and conversion focused landing page for a yoga instructor to help attract new clients and promote  online/offline classes",
+    "OverviewPara2": "The goal was to create a calm yet engaging user experience that reflects the essence of yoga balance, mindfulness, and harmony. The design emphasized  soft color palettes, minimal layouts, and smooth animations to encourage visitors to exlore class offerings and take actions. ",
+    "OverviewPara3": "From concept to launch, the landing page was optimized for mobile responsiveness, fast performance, and lead generation through clear CTAs and user-friendly navigation",
+                      
+    "problemPic":"editorPortfolio/clientProblem2.jpg",
+    "problemParaP1":"The client a yoga instructor, faced challenges in establishing a professional and engaging online presence. Their lack of website did not effectively  communicate their expertise or the benefits of their yoga classes. Potential clients often found it difficult to access key information such as class scedules, types of sessions, and pricing, leading to missed oppotunities for student enrollment.",
+    "problemParaP2":"Additionally the website lacked visual appeal and failed to capture the calm, balanced and welcoming, atmosphere that defines their yoga practice. The client needed a landing page that not only informed visitors but also encouraged them to take action sign up for classes or contact the instructor without feeling cluttered or overwhelming.",
+    "problemParaP3":"They wanted a solution  that could represent their brand authentically while being user-friendly, mobile responsive, and optimized for lead generation.",
+
+    "sec3Ans1":"I created a clean, yoga-themed landing page highlighting the client's experience and driving lead generation. The layout was easy to navigate, showcased testimonials, and balanced professionalism with a creative, inviting design, ensuring visitors could explore services and take action effortlessly.",
+    "sec3Ans2":"The landing page incorporated GSAP for smooth animations, enhancing the interactive experience. Forms were integrated via Formspree to capture leads efficiently. Additionally, carefully selected icons were used to improve visual communication and guide users through the content, creating a seamless, enagaging, and functional user experience.",
+    "sec3Ans3":"The landing page is fully optimized for all devices, ensuring a seamless experience on desktops, tablets, and mobile phones. Layouts, images, and typography adapt dynamically to different screen sizes, maintaining readability, functionality, and visual appeal. Users can easily navigate and interect with the site on any device.",
+    "sec3Ans4":"HTML, CSS, JavaScript for structure, styling, and interactivity. Gsap to add smooth animations and engaging transitions. Formspree to handle lead generation forms. Icons& images for visuals clarity and user guidance.",
+    "approachImg":"yogaLandingpagePic/yogaPages.jpg",
+
+    "point1":" A fully responsive website.",
+    "point2":" contact form.",
+    "point3":" SEO Replenish pages.", 
+    "point4":" Minimal Scroll Animations.",
+    "point5":" GSAP effects.",
+    "point6":" Social Media icons.",
+    "url":"https://yogamadhu.netlify.app/",
+
+    "ScreenShot1":"yogaLandingpagePic/landingPic1.png",
+    "ScreenShot2":"yogaLandingpagePic/landingPic2.png",
+    "ScreenShot3":"yogaLandingpagePic/landingPic3.png",
+                              
+    "Testimonials":"yogaLandingpagePic/testimonia2.jpg"
+  },
   {
     "id": "web2",
     "overViewPic":"editorPortfolio/EditorOverView.png",
