@@ -31,37 +31,7 @@
     "ScreenShot3":"yogaLandingpagePic/landingPic3.png",
                               
     "Testimonials":"yogaLandingpagePic/testimonia2.jpg"
-  },
-  {
-    "id": "web2",
-    "overViewPic":"editorPortfolio/EditorOverView.png",
-    "OverviewPara1": "I designed and developed a modern portfolio website for a freelance video editor. The main goal was to create an online presence where they could showcase their editing skills and attract potential clients.",
-    "OverviewPara2": "The website features a visually engaging layout, including an intro page and a portfolio page with selected sections of projects. The design emphasizes simplicity and responsiveness, ensuring the site looks great on laptop, mobile, and tablets.",
-    "OverviewPara3":" This portfolio now serves as a personal brand hub for the client, making it easier for them to share their workand connect with new opportunities.",
-                      
-    "problemPic":"editorPortfolio/clientProblem2.jpg",
-    "problemParaP1":"The client had been showcasing their video editing work mainly through social media and direct file sharing, while this allowed them to share content quickly, it lacked the professionalism and structure needed to make a strong impression on potential clients. Without a dedicated platform, their work was often scattered and difficult to present in a polished way.",
-    "problemParaP2":"  This limited their ability to established credibility and standout in a competitive industry, potential client had no single place to explore their portfolio, learn about their editing style, or connect with them directly, which often led to missed opportunities.",
-    "problemParaP3":" The main goal was to build a personal portfolio website that could serve as a professional hub. The site needed to highlight their best projects, reflect their personal brand, and make it easy for visitors to contact them, ultimately helping the client grow their reach and attract new collaboration. ",
-
-    "sec3Ans1":" I designed and developed a modern portfolio website tailored for a video editor, The goal was to highlight their work visually ,clean layouts that draw attention to video showcases, testimonials, and services. I focused on making the site easy to navigate while maintaining a professional creative vibe.",
-    "sec3Ans2":"I added video embeds using the HTML <video> tag to showcase the client's works directly on the site. I also integrated social media icons linking to their platform for easy visitor engagement. Additionally, I used GSAP to create smooth animations for page transition, hover effects, and video section entrances, giving the portfolio a dynamic and professional feel ",
-    "sec3Ans3":"The website was fully optimized for different devices and screen sizes. videos plays smoothly on laptop, tablet, and mobile without breaking layouts, I ensured fast loading speeds by optimizing media and using lazy loading where needed ",
-    "sec3Ans4":"The website was built with HTML, CSS, and JavaScript, with GSAP for advanced animations. The combination of these technologies allowed for a fast, interactive, and visually engaging portfolio tailored to the client's needs",
-    "approachImg":"editorPortfolio/approach.png",
-
-    "point1":" A fully responsive website.",
-    "point2":" contact form.",
-    "point3":" SEO Replenish pages.", 
-    "point4":" Scroll Animations.",
-    "point5":" GSAP effects.",
-    "point6":" Social Media icons.",
-    "url":"https://editorhixel.netlify.app/",
-
-    "ScreenShot1":"editorPortfolio/screenShot1.png",
-    "ScreenShot2":"editorPortfolio/screenshot2.png",
-    "ScreenShot3":"editorPortfolio/Screenshot3.png",
-
-    "Testimonials":"editorPortfolio/editingPortfolioReviews.jpg"
   }
+
 ]
+  
