@@ -117,7 +117,8 @@ tl2.from(".A",{
     trigger:".A",
     scrub:2,
     start:"top 90%",
-    end:"top 70%"
+    end:"top 70%",
+    markers:true
   }
 })
 
@@ -392,7 +393,7 @@ offerbox1.forEach((el)=>{
 
 let offerBoxEditing = document.querySelector(".secTwo");
 offerBoxEditing.addEventListener("click",()=>{
-    window.location.href = "https://portfolio.malloy.sg/vizualuxe_?fbclid=PAZXh0bgNhZW0CMTEAAaeuEMOOynHheYLeMTqiXbjV4UaCzS8s6d4Ao9KpcRe7KjRhJnZKh_24pwVN0w_aem_hp14f50vbeqHshVEjZDwtQ";
+    window.location.href = "https://himanshuuuu.netlify.app/";
 })
 
 
@@ -570,7 +571,8 @@ scrollTrigger:{
   trigger:".A",
   scrub:2,
   start:"top 90%",
-  end:"top 75%"
+  end:"top 75%",
+  marker:true
 }
 })
 
